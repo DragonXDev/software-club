@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* globals.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.scale-up {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+.scale-up:hover {
+  transform: scale(1.05);
+}
+
+@keyframes spreadFill {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(100);
+    opacity: 1;
+  }
+}
+
+.spreadFill {
+  background: black;
+  z-index: 30;
+  animation: spreadFill 0.7s ease-out;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  top:55%;
+  left: 50%;
+  transform: translate(-50%, -70%) scale(200);
+  transform-origin: center center;
+}
