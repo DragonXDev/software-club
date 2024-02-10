@@ -38,9 +38,8 @@ export default function Page() {
           What we offer
         </h2>
         <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-600">
-          Access to exclusive resources, workshops, and a network of passionate developers.
+          Access to resources, workshops, and a network of passionate developers.
         </p>
-        {/* Implement additional content */}
       </section>
       <section className="flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center shadow-md fadeIn">
         <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl text-black">
@@ -49,14 +48,13 @@ export default function Page() {
         <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-600">
           Trusted by the best teams in the world. We help teams of all sizes.
         </p>
-        {/* Implement additional content */}
       </section>
       <footer className="flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center shadow-md fadeIn">
         <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl text-black">
           Contact Us
         </h2>
         <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-600">
-          Have questions? Send us an email at <span className="font-medium">info@example.com</span>
+          Have questions? Send us an email at <span className="font-medium">amaarxdev@gmail.com</span>
         </p>
       </footer>
     </div>
